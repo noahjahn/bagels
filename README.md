@@ -1,4 +1,4 @@
-# bagels Dockerized
+# Dockerized 🥯 Bagels - TUI Expense Tracker
 
 The [Bagels](https://github.com/EnhancedJax/Bagels) TUI setup to be run locally with Docker (so you don't need python or uv installed)
 
