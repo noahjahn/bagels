@@ -38,7 +38,7 @@ Password: <your-github-pat>
 
 _your PAT should be kept private, don't share it with anyone_
 
-2. Add the directory to your users' `PATH`
+4. Add the directory to your users' `PATH`
 
 - the file is different depending on your OS. Examples:
 
