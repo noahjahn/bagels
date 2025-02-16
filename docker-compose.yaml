@@ -1,0 +1,6 @@
+services:
+  bagels:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ./bagels:/home/bagels/data
