@@ -5,14 +5,16 @@ The [Bagels](https://github.com/EnhancedJax/Bagels) TUI setup to be run locally 
 ## Requirements
 
 1. Github public repository read-only PAT (here are the steps if you don't have one already)
-   a. In GitHub under settings > developer settings > personal access tokens > fine-grained tokens
-   b. Generate a new token
-   c. Set a name (something like `ghcr-public-read-only`)
-   d. Keep your user as the resource owner
-   e. Set an expiration (because this token won't have any write access, it's probably okay to set it to not expire)
-   f. Keep the repository access as "Public Repositories (read-only)"
-   g. You don't need to add any other permissions
-   h. Generate the token and store it securely for your records
+
+   1. In GitHub under settings > developer settings > personal access tokens > fine-grained tokens
+   2. Generate a new token
+   3. Set a name (something like `ghcr-public-read-only`)
+   4. Keep your user as the resource owner
+   5. Set an expiration (because this token won't have any write access, it's probably okay to set it to not expire)
+   6. Keep the repository access as "Public Repositories (read-only)"
+   7. You don't need to add any other permissions
+   8. Generate the token and store it securely for your records
+
 2. Docker
 
 ## Setup
