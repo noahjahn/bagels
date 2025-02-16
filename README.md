@@ -33,8 +33,9 @@ git clone git@github.com:noahjahn/utils.git ~/bagels
 docker login ghcr.io
 ```
 
-Username: <your-github-username>
-Password: <your-github-pat>
+Username: `<your-github-username>`
+
+Password: `<your-github-pat>`
 
 _your PAT should be kept private, don't share it with anyone_
 
