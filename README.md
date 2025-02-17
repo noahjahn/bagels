@@ -1,10 +1,10 @@
 # Dockerized 🥯 Bagels - TUI Expense Tracker
 
-The [Bagels](https://github.com/EnhancedJax/Bagels) TUI setup to be run locally with Docker (so you don't need python or uv installed)
+The [Bagels](https://github.com/EnhancedJax/Bagels) TUI setup to be run locally with Docker (so you don't need `python` or `uv` installed)
 
 ## Requirements
 
-1. Github public repository read-only PAT (here are the steps if you don't have one already)
+1. GitHub public repository read-only PAT (here are the steps if you don't have one already)
 
    1. In GitHub under settings > developer settings > personal access tokens > fine-grained tokens
    2. Generate a new token
@@ -15,21 +15,21 @@ The [Bagels](https://github.com/EnhancedJax/Bagels) TUI setup to be run locally 
    7. You don't need to add any other permissions
    8. Generate the token and store it securely for your records
 
-2. Docker
+2. [Docker](https://docs.docker.com/get-started/get-docker/)
 
 ## Setup
 
-1. Clone this repo somewhere your user has access. I prefer my home directory: ~
+1. Clone this repo somewhere your user has access. I prefer my home directory: `~`
 
-```
-git clone git@github.com:noahjahn/utils.git ~/bagels
+```shell
+git clone git@github.com:noahjahn/bagels.git ~/bagels
 ```
 
 2. Add the directory to your users' PATH
 
 3. Login to the GitHub container registry
 
-```
+```shell
 docker login ghcr.io
 ```
 
@@ -41,7 +41,7 @@ _your PAT should be kept private, don't share it with anyone_
 
 4. Add the directory to your users' `PATH`
 
-- the file is different depending on your OS. Examples:
+- The file is different depending on your OS. Examples:
 
   - .bash_profile
   - .bashrc
@@ -59,8 +59,8 @@ fi
 
 ## Usage
 
-```
-$ bagels help
+```shell
+bagels help
 ```
 
 ```

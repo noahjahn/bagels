@@ -1,7 +1,5 @@
 #!/bin/bash
 
-MAYBE_HELP=$1
-
 print_usage() {
     printf "Usage:\tbagels [OPTIONS] [COMMANDS]\n"
     printf "\nRun Bagels TUI\n\n"
