@@ -10,7 +10,7 @@ print_usage() {
     printf "  help \t\tDisplay usage and how to use the script\n"
 }
 
-DATA_DIR="$HOME/bagels/data"
+DATA_DIR="$HOME/.bagels/data"
 
 while true; do
     case "$1" in

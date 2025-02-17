@@ -75,6 +75,6 @@ Commands:
   help          Display usage and how to use the script
 ```
 
-The data directory option defaults to "$HOME/bagels/data".
+The data directory option defaults to "$HOME/.bagels/data".
 
 So, you can just run `bagels` to start the app.
